@@ -53,7 +53,7 @@ int Algo_DeleteDuplicates(std::vector<int>& array)
 		/*Iterate through the array. */
 		for (int iter = 1; iter < array.size(); iter++)
 		{
-			/*If the current element is not equal to the element pointer by (lWriteIndex - 1), copy the value of current index to the 				  lWriteIndex position. */
+			/*If the current element is not equal to the element pointer by (lWriteIndex - 1), copy the value of current index to the lWriteIndex position. */
 			if (array[iter] != array[lWriteIndex - 1])
 			{
 				array[lWriteIndex++] = array[iter];
