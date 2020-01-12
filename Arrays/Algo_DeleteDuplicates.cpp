@@ -35,9 +35,7 @@
 	The size of array remains the same. The index till
 	which the array elements are valid is returned.
 	@Params : array (IN) - input vector
-	@Return : int        - Index of array till which
-						   the array elements are valid.
-
+	@Return : int        - Index of array till which the array elements are valid.
 */
 int Algo_DeleteDuplicates(std::vector<int>& array)
 {
